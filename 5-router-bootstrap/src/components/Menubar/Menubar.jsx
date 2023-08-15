@@ -5,7 +5,7 @@ const Menubar = () => {
   return (
     <nav class="navbar navbar-expand-lg  bg-primary" data-bs-theme="dark" >
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand">
           Brand Logo
         </a>
        
@@ -32,6 +32,11 @@ const Menubar = () => {
             <li class="nav-item">
               <NavLink className="nav-link" aria-current="page" to="/books">
                 Books
+              </NavLink>
+            </li>
+            <li class="nav-item">
+              <NavLink className="nav-link" aria-current="page" to="/contact">
+                Contact
               </NavLink>
             </li>
             
