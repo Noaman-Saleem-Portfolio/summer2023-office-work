@@ -1,0 +1,20 @@
+.para1{
+    background-color: blue;
+    color: white;
+}
+
+.navbar{
+    background-color: brown;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer{
+    background-color: rgb(53, 51, 51);
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
